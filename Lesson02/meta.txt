@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: test
+    groups: sudo
+    shell: /bin/bash
+    sudo: 'ALL=(ALL) NOPASSWD:ALL'
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAh6h8c53CKo0GzZHfu+skU3M0zjrBYrm12USIDFaiA4 networm@networm-GP72M-7RDX
